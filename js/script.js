@@ -7,12 +7,12 @@
 //         }
 //     })) tombol1.addEventListener("click", () => {
 
-const tombol1 = document.querySelector('.tombolRead');
+// const tombol1 = document.querySelector('.tombolRead');
 
-window.addEventListener("load", () => {
-    Swal.fire(
-        'MASIH DALAM PENGEMBANGAN :)',
-        'BENTAR LAGI JUGA BAGUS, xixixixi'
-    )
-})
+// window.addEventListener("load", () => {
+//     Swal.fire(
+//         'MASIH DALAM PENGEMBANGAN :)',
+//         'BENTAR LAGI JUGA BAGUS, xixixixi'
+//     )
+// })
 // })

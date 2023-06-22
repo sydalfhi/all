@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/sydalfhi/all.git",
   "author": "Syaid Alfarishi <syaidalfarishi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "dev" : "yarn tailwindcss -i ./css/input.css -o ./css/style.css --watch"
+  }
 }

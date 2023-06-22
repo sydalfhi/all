@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* color */
+  .bg-dark {
+    @apply bg-[#050020];
+  }
+  .bg-light {
+    @apply bg-[#9401DD96];
+  }
+}
+
+/* ========================COMPONEN============= */
+@layer components {
+  .card {
+    @apply w-[300px] pt-[13px] pb-[30px]  rounded-[25px] px-3;
+  }
+  .card_body {
+    @apply my-5 mx-[10px];
+  }
+  .card_body h1 {
+    @apply text-white py-2 capitalize text-xl font-semibold;
+  }
+  .card_body p {
+    @apply text-white/60 text-[15px] leading-5;
+  }
+  .card_footer {
+    @apply mx-[10px] flex justify-between items-center space-x-5;
+  }
+
+  .tombolRead {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16.3px);
+    -webkit-backdrop-filter: blur(16.3px);
+    @apply text-white rounded-[10px] font-medium py-2 w-full;
+  }
+  .tombolShow {
+    background: rgba(148, 1, 221, 0.59);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16.3px);
+    -webkit-backdrop-filter: blur(16.3px);
+    @apply text-white rounded-[10px] font-semibold py-2 w-full;
+  }
+}

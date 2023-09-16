@@ -1,307 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="sweetalert2.min.css" />
     <script src="sweetalert2.min.js"></script>
     <title>SYDALFRHIII</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <style>
-        * {
-            font-family: 'Poppins', sans-serif;
-        }
+      * {
+        font-family: "Poppins", sans-serif;
+      }
 
-        .card {
-            background: rgba(255, 255, 255, 0.12);
-            border-radius: 16px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(3.8px);
-            -webkit-backdrop-filter: blur(3.8px);
-        }
+      .card {
+        background: rgba(255, 255, 255, 0.12);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.8px);
+        -webkit-backdrop-filter: blur(3.8px);
+      }
     </style>
+  </head>
 
-</head>
-
-<body class="bg-dark">
-
-    <main class="bg-dark mt-20">
-        <div class="grid grid-col-1 lg:grid-cols-3  w-full   gap-y-10 place-items-center">
-
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/project2.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>PORTFOLIO</h1>
-                    <p>Hai , ini adalah portfolio yang saya buat pada bulan november tahun 2021</p>
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/bootstrap.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/second-project"
-                            target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/second-project/"
-                            target="_blank">Show</a></button>
-                </div>
+  <body class="bg-dark">
+    <main class="mt-20 bg-dark">
+      <div
+        class="grid w-full grid-col-1 lg:grid-cols-3 gap-y-10 place-items-center"
+      >
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/project2.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>PORTFOLIO</h1>
+            <p>
+              Hai , ini adalah portfolio yang saya buat pada bulan november
+              tahun 2021
+            </p>
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/bootstrap.svg" alt="" />
             </div>
-
-
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/project4.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>PORTFOLIO</h1>
-                    <p>Hai , ini adalah portfolio teman saya (ui/ux). yang saya (front-end) buatkan pada tahun 2022</p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/bootstrap.svg" alt="">
-                        <img class="icon" src="bahan/sass.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/fourth-project"
-                            target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/fourth-project/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/project3.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1> PORTFOLIO</h1>
-                    <p>Hai . ini adalah portfolio ketiga saya yang saya buat pada april tahun 2022 dengan bootstrap</p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/bootstrap.svg" alt="">
-                        <img class="icon" src="bahan/sass.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/third-project"
-                            target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/third-project/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-
-
-
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/project7.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>WEB MUSIC</h1>
-                    <p>Hai . ini adalah SIMPLE WEB MUSIC yang saya buat sebagai praktek belajar java script</p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/bootstrap.svg" alt="">
-                        <img class="icon" src="bahan/sass.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/seventh-project"
-                            target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/seventh-project/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/project9.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>WEB</h1>
-                    <p>Hai , Ini adalah webiste yang saya buat dari challenge dari FRONTENDMENTOR</p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/sass.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/ninth-project   "
-                            target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/ninth-project/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/project11.png" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>WEB</h1>
-                    <p>Hai , Ini adalah challenge dari FRONTENDMENTOR dan pertama kali saya menggunakan jquery </p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/tailwind.svg" alt="">
-                        <img class="icon" src="bahan/jquery.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/eleventh_project"
-                            target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/eleventh_project/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/project12.png" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>WEB</h1>
-                    <p>Hai , Ini adalah challenge dari FRONTENDMENTOR, dengan menggunakan tailwind & jquery </p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/tailwind.svg" alt="">
-                        <img class="icon" src="bahan/jquery.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/twelfth_project"
-                            target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/twelfth_project/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-            <!--todo =========================== -->
-
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/project13.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>WEB</h1>
-                    <p>Hai , Ini adalah website clone hookbank, dengan menggunakan tailwind & jquery </p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/tailwind.svg" alt="">
-                        <img class="icon" src="bahan/jquery.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/hookBank" target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/hookBank/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/spiderman.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>WEB</h1>
-                    <p>Hai , Ini adalah website clone Netflix , dan pertama kali saya menggunakan Alpine js</p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/tailwind.svg" alt="">
-                        <img class="icon" src="bahan/alpinejs.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/website_pilem"
-                            target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/website_pilem/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/halodok.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>WEB</h1>
-                    <p>Hai , Ini adalah website redisign halodok , ituu saja itu saja itu saja hehehehe</p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/tailwind.svg" alt="">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/halodok-page" target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://sydalfhi.github.io/halodok-page/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-            <!--todo =========================== -->
-            <div class="card">
-                <div class="thumb overflow-hidden rounded-[12px] ">
-                    <img loading="lazy" src="asset/hangeulin.jpg" alt="gambar" class="hover:scale-105 transition">
-                </div>
-                <div class="card_body ">
-                    <h1>WEB</h1>
-                    <p>Hai , Ini adalah landing page website belajar bahasa korea </p>
-
-                    <div class="flex justify-center w-full items-center  my-5 space-x-7">
-                        <img class="icon" src="bahan/react.svg" alt="react">
-                        <img class="icon" src="bahan/tailwind.svg" alt="tailwind">
-                    </div>
-                </div>
-                <div class="card_footer">
-                    <button class="tombolRead"><a href="https://github.com/sydalfhi/hangeulin" target="_blank">Source
-                            Code</a></button>
-                    <button class="tombolShow"><a href="https://hangeulin-syaid.netlify.app/"
-                            target="_blank">Show</a></button>
-                </div>
-            </div>
-
-
-
-
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a
+                href="https://github.com/sydalfhi/second-project"
+                target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/second-project/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
         </div>
-    </main>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
 
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/project4.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>PORTFOLIO</h1>
+            <p>
+              Hai , ini adalah portfolio teman saya (ui/ux). yang saya
+              (front-end) buatkan pada tahun 2022
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/bootstrap.svg" alt="" />
+              <img class="icon" src="bahan/sass.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a
+                href="https://github.com/sydalfhi/fourth-project"
+                target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/fourth-project/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/project3.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>PORTFOLIO</h1>
+            <p>
+              Hai . ini adalah portfolio ketiga saya yang saya buat pada april
+              tahun 2022 dengan bootstrap
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/bootstrap.svg" alt="" />
+              <img class="icon" src="bahan/sass.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a
+                href="https://github.com/sydalfhi/third-project"
+                target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/third-project/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/project7.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB MUSIC</h1>
+            <p>
+              Hai . ini adalah SIMPLE WEB MUSIC yang saya buat sebagai praktek
+              belajar java script
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/bootstrap.svg" alt="" />
+              <img class="icon" src="bahan/sass.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a
+                href="https://github.com/sydalfhi/seventh-project"
+                target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/seventh-project/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/project9.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB</h1>
+            <p>
+              Hai , Ini adalah webiste yang saya buat dari challenge dari
+              FRONTENDMENTOR
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/sass.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a
+                href="https://github.com/sydalfhi/ninth-project   "
+                target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/ninth-project/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/project11.png"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB</h1>
+            <p>
+              Hai , Ini adalah challenge dari FRONTENDMENTOR dan pertama kali
+              saya menggunakan jquery
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/tailwind.svg" alt="" />
+              <img class="icon" src="bahan/jquery.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a
+                href="https://github.com/sydalfhi/eleventh_project"
+                target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/eleventh_project/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/project12.png"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB</h1>
+            <p>
+              Hai , Ini adalah challenge dari FRONTENDMENTOR, dengan menggunakan
+              tailwind & jquery
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/tailwind.svg" alt="" />
+              <img class="icon" src="bahan/jquery.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a
+                href="https://github.com/sydalfhi/twelfth_project"
+                target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/twelfth_project/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/project13.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB</h1>
+            <p>
+              Hai , Ini adalah website clone hookbank, dengan menggunakan
+              tailwind & jquery
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/tailwind.svg" alt="" />
+              <img class="icon" src="bahan/jquery.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a href="https://github.com/sydalfhi/hookBank" target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/hookBank/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/spiderman.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB</h1>
+            <p>
+              Hai , Ini adalah website clone Netflix , dan pertama kali saya
+              menggunakan Alpine js
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/tailwind.svg" alt="" />
+              <img class="icon" src="bahan/alpinejs.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a
+                href="https://github.com/sydalfhi/website_pilem"
+                target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/website_pilem/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/halodok.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB</h1>
+            <p>
+              Hai , Ini adalah website redisign halodok , ituu saja itu saja itu
+              saja hehehehe
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/tailwind.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a href="https://github.com/sydalfhi/halodok-page" target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://sydalfhi.github.io/halodok-page/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/hangeulin.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB</h1>
+            <p>Hai , Ini adalah landing page website belajar bahasa korea</p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/react.svg" alt="react" />
+              <img class="icon" src="bahan/tailwind.svg" alt="tailwind" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a href="https://github.com/sydalfhi/hangeulin" target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://hangeulin-syaid.netlify.app/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+
+        <!--todo =========================== -->
+        <div class="card">
+          <div class="thumb overflow-hidden rounded-[12px]">
+            <img
+              loading="lazy"
+              src="asset/bubbe-bash.jpg"
+              alt="gambar"
+              class="transition hover:scale-105"
+            />
+          </div>
+          <div class="card_body">
+            <h1>WEB</h1>
+            <p>
+              Hai , Ini adalah landing page dari website bubble bash company
+            </p>
+
+            <div class="flex items-center justify-center w-full my-5 space-x-7">
+              <img class="icon" src="bahan/tailwind.svg" alt="tailwind" />
+            </div>
+          </div>
+          <div class="card_footer">
+            <button class="tombolRead">
+              <a href="https://github.com/sydalfhi/hangeulin" target="_blank"
+                >Source Code</a
+              >
+            </button>
+            <a
+              class="tombolShow"
+              href="https://bubble-bash-syaid.netlify.app/"
+              target="_blank"
+            >
+              <button>Show</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>

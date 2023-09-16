@@ -21,7 +21,7 @@
     @apply my-5 mx-[10px];
   }
   .card_body h1 {
-    @apply text-white py-2 capitalize text-xl font-semibold;
+    @apply py-2 text-xl font-semibold text-white capitalize;
   }
   .card_body p {
     @apply text-white/60 text-[15px] leading-5;
@@ -42,6 +42,6 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(16.3px);
     -webkit-backdrop-filter: blur(16.3px);
-    @apply text-white rounded-[10px] font-semibold py-2 w-full;
+    @apply text-center text-white rounded-[10px] font-semibold py-2 w-full;
   }
 }
